@@ -27,12 +27,12 @@ And,
 
 // Choose the necessary installation for the development mode
 
-npm i -D @babel/core @babel/preset-env babel-loader
-npm i -D style-loader node-sass css-loader sass-loader
-npm i -D clean-webpack-plugin
-npm i -D html-webpack-plugin
-npm i -D mini-css-extract-plugin
-npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
+# npm i -D @babel/core @babel/preset-env babel-loader
+# npm i -D style-loader node-sass css-loader sass-loader
+# npm i -D clean-webpack-plugin
+# npm i -D html-webpack-plugin
+# npm i -D mini-css-extract-plugin
+# npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
 
 
 ## Step 2: Setting up the API
@@ -48,10 +48,10 @@ Refer to: ```https://www.meaningcloud.com/developer/sentiment-analysis/doc/2.1/e
 
 Next, requiring the API keys will look something like this:
 
-var https = require('follow-redirects').https;
-var fs = require('fs');
+.var https = require('follow-redirects').https;
+.var fs = require('fs');
 
-var options = {
+.var options = {
     'method': 'POST',
     'hostname': 'api.meaningcloud.com',
     'path': '/sentiment-2.1?key=<Your_Key>&lang=<lang>&txt=<text>&model=<model>',
