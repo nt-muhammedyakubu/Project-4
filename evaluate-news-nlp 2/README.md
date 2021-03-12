@@ -87,7 +87,7 @@ A great step to take with the finished project could be to deploy it! But that w
 
 #### References
 
-Natural Language Processing Note, [Retrieved from https://en.wikipedia.org/wiki/Natural_language_processing on 18 February 2021]<br> 
+Natural Language Processing Note, [Retrieved online from https://en.wikipedia.org/wiki/Natural_language_processing on 18 February 2021]<br> 
 Webpack Docs ```https://webpack.js.org/loaders/```<br>
 Sass basics ```https://sass-lang.com/guide```<br>
 MeaningCloud API Endpoint Docs ```https://www.meaningcloud.com/developer/sentiment-analysis/dev-tools/2.1```<br>
