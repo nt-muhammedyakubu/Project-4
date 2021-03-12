@@ -45,18 +45,18 @@ Refer to: ```https://www.meaningcloud.com/developer/sentiment-analysis/doc/2.1/e
 
 #### Step 4: Environment Variables
 
-Next, requiring the API keys will look something like this:
+Next, requiring the API keys will look something like this:<br>
 
-.var https = require('follow-redirects').https;
-.var fs = require('fs');
+.var https = require('follow-redirects').https;<br>
+.var fs = require('fs');<br>
 
-.var options = {
+.var options = {<br>
     'method': 'POST',
-    'hostname': 'api.meaningcloud.com',
-    'path': '/sentiment-2.1?key=<Your_Key>&lang=<lang>&txt=<text>&model=<model>',
-    'headers': {},
-    'maxRedirects': 20
-};
+    'hostname': 'api.meaningcloud.com',<br>
+    'path': '/sentiment-2.1?key=<Your_Key>&lang=<lang>&txt=<text>&model=<model>',<br>
+    'headers': {},<br>
+    'maxRedirects': 20<br>
+};<br>
   
 ...but there's a problem with this. The personal API keys in the file is going to be available PUBLICLY on Github when we push, which is not advicable. So to prevent this, we will use environment variables. Environment variables are pretty much like normal variables in that they have a name and hold a value, but these variables only belong to your system and would not be visible when you push to a different environment like Github.
 
@@ -87,10 +87,10 @@ A great step to take with the finished project could be to deploy it! But that w
 
 #### References
 
-Natural Language Processing Note, [Retrieved from https://en.wikipedia.org/wiki/Natural_language_processing on 18 February 2021] 
-Webpack Docs ```https://webpack.js.org/loaders/```
-Sass basics ```https://sass-lang.com/guide```
-MeaningCloud API Endpoint Docs ```https://www.meaningcloud.com/developer/sentiment-analysis/dev-tools/2.1```
-Fetch APIS docs ```https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API```
-Jest Docs```https://jestjs.io/docs/en/getting-started```
-Jest Tutorial ```https://jestjs.io/docs/en/configuration#snapshotserializers-arraystring```
+Natural Language Processing Note, [Retrieved from https://en.wikipedia.org/wiki/Natural_language_processing on 18 February 2021]<br> 
+Webpack Docs ```https://webpack.js.org/loaders/```<br>
+Sass basics ```https://sass-lang.com/guide```<br>
+MeaningCloud API Endpoint Docs ```https://www.meaningcloud.com/developer/sentiment-analysis/dev-tools/2.1```<br>
+Fetch APIS docs ```https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API```<br>
+Jest Docs```https://jestjs.io/docs/en/getting-started```<br>
+Jest Tutorial ```https://jestjs.io/docs/en/configuration#snapshotserializers-arraystring```<br>
