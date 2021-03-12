@@ -27,18 +27,17 @@ And,
 
 // Choose the necessary installation for the development mode
 
-# npm i -D @babel/core @babel/preset-env babel-loader
-# npm i -D style-loader node-sass css-loader sass-loader
-# npm i -D clean-webpack-plugin
-# npm i -D html-webpack-plugin
-# npm i -D mini-css-extract-plugin
-# npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
+.npm i -D @babel/core @babel/preset-env babel-loader<br>
+.npm i -D style-loader node-sass css-loader sass-loader<br>
+.npm i -D clean-webpack-plugin<br>
+.npm i -D html-webpack-plugin<br>
+.npm i -D mini-css-extract-plugin<br>
+.npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin<br>
 
 
 ## Step 2: Setting up the API
 
-The MeaningCloud API is used. You do not need an application_id for it. You can find the API here. Once you create an account with MeaningCloud, you will be given a license key to start using the API. 
-
+The MeaningCloud API is used. You do not need an application_id for it. You can find the API here<br> https://www.meaningcloud.com/developer/account/subscriptions```.<br> Once you create an account with MeaningCloud, you will be given a license key to start using the API. 
 ### Step 3: Require the meaningcloudAPI
 
 Set up your server/index.js file.
